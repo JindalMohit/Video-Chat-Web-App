@@ -17,7 +17,7 @@ window.onload = function() {
    var name = prompt("What's your name?");
    var room = prompt("Enter the group no.");
 
-   var wcs = new WebSocket("wss://10.42.0.1:8008");
+   var wcs = new WebSocket("wss://127.0.0.1:8008");
    
    var peerConnCfg = {'iceServers':
       [{'url': 'stun:stun.services.mozilla.com'},
